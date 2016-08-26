@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/altersort"
+        android:background="@android:color/white"
+        android:baselineAligned="false"
+        android:gravity="end"
+        android:layout_gravity="bottom">
+        <Button
+            android:id="@+id/button_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textColor="#7AD3E0"
+            android:text="排序"
+            android:onClick="sortClick"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textColor="#7AD3E0"
+            android:text="搜索"
+            android:onClick="searchClick"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

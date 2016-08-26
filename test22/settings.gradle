@@ -1,0 +1,1 @@
+include ':app', ':base', ':common', ':commonwidget', ':audio', ':controller', ':panowidget', ':videowidget'

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:layout_margin="@dimen/item_margin">
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/welcom_size"
+        android:hint="想去哪裏？"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:paddingBottom="50dp" />
+
+    <Button
+        android:id="@+id/show_near_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="附近"
+        android:textSize="@dimen/welcom_size"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="..."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最近搜索"
+        android:textSize="@dimen/welcom_size"
+        android:layout_marginTop="20dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+
+
+</LinearLayout>

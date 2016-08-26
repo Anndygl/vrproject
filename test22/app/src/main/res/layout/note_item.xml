@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:clickable="true"
+    android:id="@+id/note_item"
+    >
+    <TextView
+        android:id="@+id/note_tiele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="8dp"
+        android:text="游記標題"
+        android:clickable="true"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/note_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2001年3月3日"
+        android:padding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    app:cardCornerRadius="4dp"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="8dp">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@android:drawable/ic_dialog_info"/>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginLeft="8dp">
+               <TextView
+                   android:id="@+id/review_user_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="sans-serif-light"
+
+                   android:text="username"
+                   android:lineSpacingExtra="4dp"
+                   android:ellipsize="end"
+                   />
+               <TextView
+                   android:id="@+id/review_date"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="sans-serif-light"
+                   android:text="date"
+                   android:lineSpacingExtra="4dp"
+                   android:ellipsize="end"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_gravity="right"
+               android:gravity="right">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="綜合評價:"
+                   android:textSize="12sp"
+                   android:layout_marginRight="5dp"
+                   android:layout_gravity="center_vertical|right" />
+               <ImageView
+                   android:id="@+id/review_rank"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="right"
+                   android:src="@android:drawable/ic_menu_today"/>
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+       <TextView
+           android:id="@+id/review_content"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:fontFamily="sans-serif-light"
+           android:layout_marginTop="10dp"
+           android:layout_margin="8dp"
+           android:padding="8dp"
+           android:text="路綫非常不同路綫非常不同路綫非常不同路綫非常不同路綫非常不同路綫非常不同路綫非常不同路綫非常不同路綫非常不同路綫非常不同"
+           android:lineSpacingExtra="4dp"
+           android:ellipsize="end"
+           />
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+

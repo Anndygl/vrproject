@@ -1,0 +1,62 @@
+<resources>
+    <!--log_in.xml-->
+    <string name="welcome">欢迎来到鹰眼</string>
+
+    <!--scenic_list model-->
+    <string name="app_name">test2</string>
+    <string name="scenic_one_title">南京博物馆</string>
+    <string name="scenic_one_desc">中国创建最早的博物馆、中国第一座由国家投资兴建的大型综合类博物馆，是大型综合性的国家级博物馆、全国综合性历史艺术博物馆</string>
+    <string name="scenic_two_title">Hugh Jackman says coffee can change the world</string>
+    <string name="scenic_two_desc">(CNN)-Hugh Jackman may be finished playing Wolverine in Marvels X-Men films,butthe actior still uses his superhuman powers to impact global poverty，Humanitarianism is deeply ingrained in Jackman upbringing. His father, Christopher Jackman, instilled the value of giving through his work as a volunteer accountant for charities serving the developing world.
+    I suppose he was leading by example, Jackman said. Areas of poverty and extreme poverty, I learned, are not a natural state. It is man-made and solvable.</string>
+    <string name="scenic_three_title">Australia in charge ofsecond Test against West Indies in Jamaica</string>
+    <string name="scenic_three_desc">Australia in charge ofsecond Test against West Indies in Jamaica</string>
+    <string name="scenic_four_title">Sweden royal wedding</string>
+    <string name="scenic_four_desc">中国创建最早的博物馆、中国第一座由国家投资兴建的大型综合类博物馆，是大型综合性的国家级博物馆、全国综合性历史艺术博物馆中国创建最早的博物馆、中国第一座由国家投资兴建的大型综合类博物馆，是大型综合性的国家级博物馆、全国综合性历史艺术博物馆
+中国创建最早的博物馆、中国第一座由国家投资兴建的大型综合类博物馆，是大型综合性的国家级博物馆、全国综合性历史艺术博物馆
+中国创建最早的博物馆、中国第一座由国家投资兴建的大型综合类博物馆，是大型综合性的国家级博物馆、全国综合性历史艺术博物馆
+中国创建最早的博物馆、中国第一座由国家投资兴建的大型综合类博物馆，是大型综合性的国家级博物馆、全国综合性历史艺术博物馆</string>
+
+    <!--help_guide model-->
+    <string name="help_one_title">准备眼镜</string>
+    <string name="help_one_desc">组装cardboard纸盒眼镜</string>
+    <string name="help_two_title">按钮说明</string>
+    <string name="help_two_desc">根据自身头部的左右摆动就可以控制了，通过磁铁向下拨动就可以选中</string>
+    <string name="help_three_title">使用说明</string>
+    <string name="help_three_desc">选择好希望游览的路线以后，屏幕会显示“请佩戴好cardboard眼镜”的提示文字，将手机正确放入cardboard眼镜中并佩戴好眼镜，即可开始游览</string>
+    <string name="help_four_title">游览操作提示</string>
+    <string name="help_four_desc">在游览过程中，可以通过头部的左右转动来移动游览视角</string>
+
+    <string name="menu_night_mode">Night mode</string>
+    <string name="menu_night_mode_system">Follow system</string>
+    <string name="menu_night_mode_day">Day (always)</string>
+    <string name="menu_night_mode_night">Night (always)</string>
+    <string name="menu_night_mode_auto">Auto</string>
+    <string name="title">Gorillas</string>
+    <string name="subtitle">The great apes from Central Africa</string>
+  <string name="paragraph1">Gorillas are ground-dwelling, predominantly
+    herbivorous apes that inhabit the forests of central Africa.
+
+\n\nThe 360 video below shows gorillas in the Congo rainforest.
+  </string>
+
+  <string name="paragraph2">The eponymous genus Gorilla is divided into two
+    species: the eastern gorillas and the western gorillas, and either four or
+    five subspecies. They are the largest living primates by physical size.
+
+\n\nThe DNA of gorillas is highly similar to that of humans, from 95–99%
+    depending on what is counted, and they are the next closest living relatives
+    to humans after the chimpanzees and bonobos.
+
+\n\nGorillas\' natural habitats cover tropical or subtropical forests in Africa.
+    Although their range covers a small percentage of Africa, gorillas cover a
+    wide range of elevations. The mountain gorilla inhabits the Albertine Rift
+    montane cloud forests of the Virunga Volcanoes, ranging in altitude
+    from 2,200–4,300 metres (7,200–14,100 ft). Lowland gorillas live in dense
+    forests and lowland swamps and marshes as low as sea level, with western
+    lowland gorillas living in Central West African countries and eastern lowland
+    gorillas living in the Democratic Republic of the Congo near its border with Rwanda
+  </string>
+
+    <string name="source">Source &lt;a href="https://en.wikipedia.org/wiki/Gorilla">Wikipedia&lt;/a></string>
+</resources>

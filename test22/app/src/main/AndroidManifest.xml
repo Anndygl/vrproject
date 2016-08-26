@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sun.test2">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+    <!-- Required for vibration feedback when the trigger action is performed. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Required to read the paired viewer's distortion parameters. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- Make accelerometer and gyroscope hard requirements for good head tracking. -->
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- VR feature tags. -->
+    <uses-feature
+        android:name="android.software.vr.mode"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.vr.high_performance"
+        android:required="false" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".searchActivity" />
+        <activity android:name=".signupActivity" />
+        <activity android:name=".loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            s
+        </activity>
+        <activity android:name=".UserGuide" />
+        <activity android:name=".RouteConceptActivity" />
+        <activity android:name=".ScenicListActivity" />
+        <activity
+            android:name=".ScenicActivity"
+            android:parentActivityName=".ScenicListActivity" />
+        <activity android:name=".indexActivity" />
+        <activity android:name=".PersonalActivity1" />
+        <activity android:name=".settingActivity" />
+        <activity android:name=".cardBoardVideoActivity">
+            <intent-filter>
+                <!-- Primary intent when launching from the home screen -->
+                <category android:name="com.google.intent.category.CARDBOARD" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
